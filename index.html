@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="headerDiv">
+            <p class="header">Quick Game</p>
+        </div>
+        <div class="butCon">
+            <button class="startBut btn btn-primary">Start</button>
+        </div>
+    </div>
+
+    <div class="correctMessage"><i class="far fa-lightbulb"></i>Correct!+10Marks</div>
+    <div class="falseMessage"><i class="far fa-times-circle"></i>Uncorrect!+0Mark</div>
+
+    <div class="firstContainer">
+        <div class="innerCon">
+            <div class="question1Div forQuestion">
+               1.What is the Capical of Myanmar!
+            </div>
+           
+            <div class="question1but">
+                <div class="firstlineBut">
+                    <button class="correctancer1 custombut btn btn-warning">1.Nay Pyi Taw</button>
+                    
+                    <button class="falseanswer1of1 custombut btn btn-warning">3.Mandalay</button>
+                </div>
+                <div class="secondlineBut">
+                    <button class="falseanswer2of1 custombut btn btn-warning ">2.Yangon</button>
+                    <button class="falseanswer3of1 custombut btn btn-warning">4.Myitkyina</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- for second question -->
+    <div class="secondContainer">
+        <div class="innerCon">
+            <div class="question1Div forQuestion">
+                2.1+1=?
+            </div>
+           
+            <div class="question1but">
+                <div class="firstlineBut">
+                    <button class="falseanswer3of2 custombut btn btn-warning">1.3</button>
+                    
+                    <button class="falseanswer1of2 custombut btn btn-warning">3.0</button>
+                </div>
+                <div class="secondlineBut">
+                    <button class="falseanswer2of2 custombut btn btn-warning ">2.4</button>
+                    <button class="correctancer2 falseanswer3of1 custombut btn btn-warning">4.2</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- for third question -->
+    <div class="thirdContainer">
+        <div class="innerCon">
+            <div class="question1Div forQuestion">
+                3.What is the larget lake in Myanmar.
+            </div>
+           
+            <div class="question1but">
+                <div class="firstlineBut">
+                    <button class="falseanswer2of3 custombut btn btn-warning">1.Innlay Lake</button>
+                    
+                    <button class="falseanswer1of3 custombut btn btn-warning">3.Kandawgyi Lake</button>
+                </div>
+                <div class="secondlineBut">
+                    <button class="correctancer3 custombut btn btn-warning ">2.Indawgyi Lake</button>
+                    <button class="falseanswer3of3 custombut btn btn-warning">4.Innyar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- final result -->
+    <div class="resultContainer">
+        <div class="innerCon">
+            <div class="resultTitle">Your Marks</div>
+            <div class="markCon">
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="nextbuttonOccur">
+       <div class="textCon">
+           Next>>
+       </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
