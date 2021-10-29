@@ -244,3 +244,4 @@ falseanswer3of2Value.addEventListener("click",falseanswer3of2);
 falseanswer1of3Value.addEventListener("click",falseanswer1of3);
 falseanswer2of3Value.addEventListener("click",falseanswer2of3);
 falseanswer3of3Value.addEventListener("click",falseanswer3of3);
+console.log("hello");
