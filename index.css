@@ -164,21 +164,21 @@ li{
     height: 70px;
     
     top: 370px;
-    right: 90px;
+    right: 50px;
     font-size: 16px;
 }
 .correctMessage{
     width: 100px;
     padding: 10px;
     font-size: 10px;
-    top: 390px;
-    left: 200px;
+    top: 420px;
+    left: 150px;
 }
 .falseMessage{
     width: 100px;
     padding: 10px;
     font-size: 10px;
-    top: 390px;
-    left: 200px;
+    top: 420px;
+    left: 150px;
 }
 }
